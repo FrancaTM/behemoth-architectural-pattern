@@ -113,20 +113,20 @@
 		3F7307B9226A9E9500CFF98B /* Behemoth_april1st_sample */ = {
 			isa = PBXGroup;
 			children = (
+				3F7307F8226AC09500CFF98B /* Backend */,
+				3F7307F9226AC0BC00CFF98B /* Encapsulation */,
+				3F7307FA226AC0DD00CFF98B /* Handler */,
+				3F7307FB226AC0EC00CFF98B /* ErrorChecker */,
+				3F7307FC226AC10300CFF98B /* Model */,
+				3F7307FD226AC11000CFF98B /* Observer */,
+				3F7307FE226AC11C00CFF98B /* Transformer */,
+				3F7307FF226AC12D00CFF98B /* HumanInterface */,
 				3F7307BA226A9E9500CFF98B /* AppDelegate.swift */,
 				3F7307BC226A9E9500CFF98B /* ViewController.swift */,
 				3F7307BE226A9E9500CFF98B /* Main.storyboard */,
 				3F7307C1226A9E9600CFF98B /* Assets.xcassets */,
 				3F7307C3226A9E9600CFF98B /* LaunchScreen.storyboard */,
 				3F7307C6226A9E9600CFF98B /* Info.plist */,
-				3F7307E8226A9F1400CFF98B /* DateBackend.swift */,
-				3F7307EA226A9FB100CFF98B /* DateEncapsulation.swift */,
-				3F7307EC226AA12900CFF98B /* DateHandler.swift */,
-				3F7307EE226AA52C00CFF98B /* DateErrorChecker.swift */,
-				3F7307F0226AA62B00CFF98B /* DateModel.swift */,
-				3F7307F2226AA7B200CFF98B /* DateObserver.swift */,
-				3F7307F4226AA8BC00CFF98B /* DateTransformer.swift */,
-				3F7307F6226AAA5F00CFF98B /* DateHumanInterface.swift */,
 			);
 			path = Behemoth_april1st_sample;
 			sourceTree = "<group>";
@@ -147,6 +147,70 @@
 				3F7307DC226A9E9600CFF98B /* Info.plist */,
 			);
 			path = Behemoth_april1st_sampleUITests;
+			sourceTree = "<group>";
+		};
+		3F7307F8226AC09500CFF98B /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307E8226A9F1400CFF98B /* DateBackend.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		3F7307F9226AC0BC00CFF98B /* Encapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307EA226A9FB100CFF98B /* DateEncapsulation.swift */,
+			);
+			path = Encapsulation;
+			sourceTree = "<group>";
+		};
+		3F7307FA226AC0DD00CFF98B /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307EC226AA12900CFF98B /* DateHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		3F7307FB226AC0EC00CFF98B /* ErrorChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307EE226AA52C00CFF98B /* DateErrorChecker.swift */,
+			);
+			path = ErrorChecker;
+			sourceTree = "<group>";
+		};
+		3F7307FC226AC10300CFF98B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307F0226AA62B00CFF98B /* DateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F7307FD226AC11000CFF98B /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307F2226AA7B200CFF98B /* DateObserver.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		3F7307FE226AC11C00CFF98B /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307F4226AA8BC00CFF98B /* DateTransformer.swift */,
+			);
+			path = Transformer;
+			sourceTree = "<group>";
+		};
+		3F7307FF226AC12D00CFF98B /* HumanInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3F7307F6226AAA5F00CFF98B /* DateHumanInterface.swift */,
+			);
+			path = HumanInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
